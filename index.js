@@ -21,7 +21,7 @@ app.use("/users", userRouter);
 app.use("/todos", todosRouter);
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World! from the frist time ");
 });
 
 // app.get("*", (req, res) => {
